@@ -31,3 +31,23 @@ PhishGuard is an AI-powered phishing URL detection system designed to analyze su
    Risk Score + Level
           ↓
      Security Report
+
+🛠️ Tech Stack
+Python
+Streamlit
+Scikit-learn
+Pandas
+NumPy
+Python-WHOIS
+Machine Learning
+Rule-Based Detection
+📂 Project Structure
+PHISHGUARD/
+├── data/
+├── models/
+├── pages/
+├── src/
+├── app.py
+├── scan_storage.py
+├── requirements.txt
+└── README.md
