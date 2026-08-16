@@ -1,0 +1,96 @@
+[
+    {
+        "url": "https://example.com@evil.example",
+        "prediction": "Legitimate",
+        "risk_level": "Legitimate",
+        "risk_score": 8.61,
+        "rule_score": 15,
+        "rule_level": "Low Risk",
+        "phishing_probability": 0.05872559708134437,
+        "legitimate_probability": 0.9412744029186556,
+        "reasons": [
+            "The URL contains an '@' symbol, which can be used to obscure the actual destination."
+        ]
+    },
+    {
+        "url": "https://example.com/update/password",
+        "prediction": "Phishing",
+        "risk_level": "High Risk",
+        "risk_score": 72.03,
+        "rule_score": 7,
+        "rule_level": "Low Risk",
+        "phishing_probability": 0.9990369555553005,
+        "legitimate_probability": 0.0009630444446995234,
+        "reasons": [
+            "The machine-learning model strongly classifies this URL as phishing.",
+            "The URL contains 2 suspicious keyword(s)."
+        ]
+    },
+    {
+        "url": "https://example.com/update/password",
+        "prediction": "Phishing",
+        "risk_level": "High Risk",
+        "risk_score": 72.03,
+        "rule_score": 7,
+        "rule_level": "Low Risk",
+        "phishing_probability": 0.9990369555553005,
+        "legitimate_probability": 0.0009630444446995234,
+        "reasons": [
+            "The machine-learning model strongly classifies this URL as phishing.",
+            "The URL contains 2 suspicious keyword(s)."
+        ]
+    },
+    {
+        "url": "https://example.com/login/verify/account",
+        "prediction": "Phishing",
+        "risk_level": "High Risk",
+        "risk_score": 74.47,
+        "rule_score": 15,
+        "rule_level": "Low Risk",
+        "phishing_probability": 0.9995511340579238,
+        "legitimate_probability": 0.0004488659420761598,
+        "reasons": [
+            "The machine-learning model strongly classifies this URL as phishing.",
+            "The URL contains 3 suspicious keywords."
+        ]
+    },
+    {
+        "url": "https://github.com",
+        "prediction": "Phishing",
+        "risk_level": "Suspicious",
+        "risk_score": 67.8,
+        "rule_score": 0,
+        "rule_level": "Low Risk",
+        "phishing_probability": 0.9685078811936372,
+        "legitimate_probability": 0.03149211880636282,
+        "reasons": [
+            "The machine-learning model strongly classifies this URL as phishing."
+        ]
+    },
+    {
+        "url": "https://www.microsoft.com",
+        "prediction": "Legitimate",
+        "risk_level": "Legitimate",
+        "risk_score": 0.23,
+        "rule_score": 0,
+        "rule_level": "Low Risk",
+        "phishing_probability": 0.0033178087054927014,
+        "legitimate_probability": 0.9966821912945073,
+        "reasons": [
+            "No significant risk indicators detected."
+        ]
+    },
+    {
+        "url": "https://www.microsoft.com",
+        "prediction": "Legitimate",
+        "risk_level": "Legitimate",
+        "risk_score": 0.23,
+        "rule_score": 0,
+        "rule_level": "Low Risk",
+        "phishing_probability": 0.0033178087054927014,
+        "legitimate_probability": 0.9966821912945073,
+        "reasons": [
+            "No significant risk indicators detected."
+        ]
+    }
+]
