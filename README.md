@@ -18,10 +18,10 @@ PhishGuard is an AI-powered phishing URL detection system designed to analyze su
 ## 🧠 How It Works
 
 ```text
-URL
- ↓
-Feature Extraction
- ↓
+         URL
+          ↓
+    Feature Extraction
+          ↓
  ┌─────────────────────┐
  │ Machine Learning    │
  │ Rule-Based Analysis │
